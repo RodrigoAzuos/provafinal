@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.azapps.tarefas.CriarTarefaActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edt_titulo_tarefa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o titulo"/>
+
+    <EditText
+        android:id="@+id/edt_descricao_tarefa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a descricao"/>
+
+    <EditText
+        android:id="@+id/edt_data_tarefa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a descricao"/>
+
+    <Button
+        android:id="@+id/btn_criar_tarefa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmar"/>
+
+</LinearLayout>

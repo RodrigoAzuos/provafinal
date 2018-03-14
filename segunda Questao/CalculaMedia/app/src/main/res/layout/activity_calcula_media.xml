@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.azapps.calculamedia.CalculaMediaActivity"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/edt_peso_primeira_nota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a primeira nota"/>
+    <EditText
+        android:id="@+id/edt_peso_segunda_nota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a segunda nota"
+        />
+    <Button
+        android:id="@+id/btn_calcular_media"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmar"/>
+
+
+</LinearLayout>

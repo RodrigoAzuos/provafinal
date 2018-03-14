@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.azapps.calculamedia.MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edt_primeira_nota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a primeira nota"/>
+    <EditText
+        android:id="@+id/edt_segunda_nota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a segunda nota"
+        />
+    <Button
+        android:id="@+id/btn_confirmar_notas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmar"/>
+
+    <EditText
+        android:id="@+id/resultadoMedia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"/>
+</LinearLayout>
